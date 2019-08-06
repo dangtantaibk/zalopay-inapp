@@ -1,2 +1,2 @@
 dependencies: \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Intermediates.noindex/demo_zpdk.build/Debug-iphonesimulator/demo_zpdk.build/DerivedSources/demo_zpdk_vers.c
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Intermediates.noindex/demo_zpdk.build/Debug-iphonesimulator/demo_zpdk.build/DerivedSources/demo_zpdk_vers.c

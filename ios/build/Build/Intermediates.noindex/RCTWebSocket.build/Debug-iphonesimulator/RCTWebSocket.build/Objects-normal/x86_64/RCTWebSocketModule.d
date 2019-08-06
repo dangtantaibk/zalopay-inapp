@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.m \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
-  /Users/lap13046/Downloads/DemoZPDK_ReactNative/demo_zpdk/demo_zpdk/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h
+  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.m \
+  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/Libraries/WebSocket/RCTWebSocketModule.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventEmitter.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/lap13046/Documents/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/Libraries/WebSocket/RCTSRWebSocket.h

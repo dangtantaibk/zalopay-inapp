@@ -11,7 +11,7 @@ import {Platform, StyleSheet, Text, View, KeyboardAvoidingView, TextInput, Nativ
 import CryptoJS from 'crypto-js';
 import { Button } from "zalopay-react-native-ui-toolkit";
 import ZPNativeModule from "react-native-zalopay-native-module";
-import API from "./api";
+import API from "./src/api";
 
 
 
@@ -39,7 +39,7 @@ export default class App extends Component {
     }
   }
 
-  componentDidMount(): void {
+  componentDidMount() {
     this.subscription = payZaloBridgeEmitter.addListener(
         'EventPayZalo',
         (data) => {
@@ -53,7 +53,7 @@ export default class App extends Component {
     );
   }
 
-  componentWillUnmount(): void {
+  componentWillUnmount() {
     if (this.subscription) {
       this.subscription.remove();
     }
@@ -65,7 +65,7 @@ export default class App extends Component {
     let amount = parseInt(this.state.money)
     let appuser = "demozpdk"
     let apptime = (new Date).getTime()
-    let embeddata = "{\"promotioninfo\":\"{\\\"campaigncode\\\":\\\"yeah\\\"}\",\"merchantinfo\":\"embeddata123\"}"
+    let embeddata = "{\"promotioninfo\":\"{\\\"campaignc ode\\\":\\\"yeah\\\"}\",\"merchantinfo\":\"embeddata123\"}"
     let item = "[{\\\"itemid\\\":\\\"knb\\\",\\\"itemname\\\":\\\"kim nguyen bao\\\",\\\"itemquantity\\\":10,\\\"itemprice\\\":50000}]"
     let description = "Simple demo zpdk"
     let hmacInput = appid +"|"+ apptransid +"|"+ appuser +"|"+ amount +"|" + apptime +"|"+ embeddata +"|" +item
@@ -84,7 +84,7 @@ export default class App extends Component {
       'item':item,
       'description': description,
       'mac': mac
-    }
+    };
 
     console.log(order)
 
@@ -135,13 +135,41 @@ export default class App extends Component {
           console.log("API.createOrder", resp);
           ZPNativeModule.hideLoading();
           resp.amount = amount;
-          ZPNativeModule.payOrder(resp);
+          ZPNativeModule.payOrder(resp)
+              .then((responseObject) => {
+                ZPNativeModule.showDialogWithMessage("Thanh toán thành công");
+              })
+              .catch((error) => {
+                ZPNativeModule.showDialogWithMessage("Thanh toán đơn hàng lỗi");
+              });
         })
         .catch(error => {
           ZPNativeModule.hideLoading();
           ZPNativeModule.showDialogWithMessage("Tạo đơn hàng lỗi");
         });
   };
+
+  handleUserInfoPress = () => {
+    ZPNativeModule.showLoading();
+    ZPNativeModule.getAppUserInfo("")
+        .then((responseObject) => {
+          const {userid, muid, maccesstoken} = responseObject;
+          ZPNativeModule.hideLoading();
+          ZPNativeModule.showDialogWithMessage(`Thông tin user: userid-${userid}, muid-${muid}, maccesstoken-${maccesstoken} `);
+        })
+        .catch((error) => {
+          ZPNativeModule.hideLoading();
+          ZPNativeModule.showDialogWithMessage("Get user info error");
+        });
+  };
+
+  handleOpenSupportCenter = () => {
+    ZPNativeModule.navigateSupportCenter();
+  };
+
+  handleCloseModule = () => {
+    ZPNativeModule.closeModule()
+  }
     
 
   render() {
@@ -160,6 +188,21 @@ export default class App extends Component {
               title="Pay"
               style={styles.payButton}
               onPress={this.handlePayPress}
+          />
+          <Button.Normal
+              title="Get user info"
+              style={styles.userInfoButton}
+              onPress={this.handleUserInfoPress}
+          />
+          <Button.Normal
+              title="Support center"
+              style={styles.userInfoButton}
+              onPress={this.handleOpenSupportCenter}
+          />
+          <Button.Normal
+              title="Close"
+              style={styles.userInfoButton}
+              onPress={this.handleCloseModule}
           />
         </View>
     );
@@ -191,5 +234,18 @@ const styles = StyleSheet.create({
   payButton: {
     alignSelf: "stretch",
     margin: 10
-  }
+  },
+  userInfoButton: {
+    alignSelf: "stretch",
+    margin: 10
+  },
+  textInput: {
+    height: 50,
+    borderColor: "#FAAAAA",
+    borderWidth: 1,
+    margin: 10,
+    padding: 10,
+    alignSelf: "stretch",
+    flex: 1
+  },
 });
