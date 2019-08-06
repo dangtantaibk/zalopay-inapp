@@ -1,6 +1,6 @@
 dependencies: \
-  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/React/Profiler/RCTProfileTrampoline-x86_64.S \
-  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/lap13046/Documents/zalopay-inapp/node_modules/react-native/React/Profiler/RCTMacros.h
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Profiler/RCTProfileTrampoline-x86_64.S \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Profiler/RCTMacros.h
