@@ -11,11 +11,10 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTBridgeModule.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Views/RCTNavItem.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTUtils.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Views/RCTComponent.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Views/RCTAutoInsetsProtocol.h

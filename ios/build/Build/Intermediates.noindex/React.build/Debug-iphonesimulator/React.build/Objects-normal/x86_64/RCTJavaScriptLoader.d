@@ -5,8 +5,6 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/cxxreact/JSBundleType.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTBridge.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTBridgeModule.h \

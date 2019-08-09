@@ -10,11 +10,8 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTBridgeModule.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTFrameUpdate.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTBridge+Private.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTLog.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTAssert.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/React/Base/RCTUtils.h \

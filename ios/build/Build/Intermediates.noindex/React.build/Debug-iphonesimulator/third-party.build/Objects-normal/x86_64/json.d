@@ -1,7 +1,27 @@
 dependencies: \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/json.cpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/json.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/dynamic.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/json.cpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/json.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Function.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CppAttributes.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Portability.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Config.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CPortability.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Traits.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/Invoke.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Preprocessor.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Exception.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Range.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV2.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Constexpr.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/String.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/CpuId.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Likely.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/RangeCommon.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/glog-0.3.5/exported/glog/logging.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/glog-0.3.5/exported/glog/log_severity.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/glog-0.3.5/exported/glog/vlog_is_on.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/RangeSse42.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/dynamic.h \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/operators.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/config.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/config/user.hpp \
@@ -14,44 +34,85 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/config/posix_features.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/config/suffix.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/detail/workaround.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Range.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/FBString.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Portability.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/Config.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/CPortability.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Hash.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/ApplyTuple.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Bits.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/Builtins.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Assume.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/BitsDetail.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/BitIteratorDetail.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_adaptor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/static_assert.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/detail/iterator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_categories.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/detail/config_def.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/eval_if.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/if.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/value_wknd.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/static_cast.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/workaround.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/integral.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/F14Map.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/functional/ApplyTuple.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Utility.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/SafeAssert.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/F14Map-fwd.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Defaults.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Policy.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Memory.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ConstexprMath.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Align.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Malloc.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Unit.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14Table.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Bits.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Bits.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Assume.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Builtins.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ScopeGuard.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/UncaughtExceptions.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/Launder.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/container/detail/F14IntrinsicsAvailability.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/Hash.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/hash/SpookyHashV1.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/Malloc.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/memory/detail/MallocImpl.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/json_pointer.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Expected.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Optional.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/lang/ColdClass.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/dynamic-inl.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Conv.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/double-conversion.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/utils.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Demangle.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBString.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Math.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Format.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FormatArg.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/String.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/ExceptionString.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FBVector.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/FormatTraits.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/String-inl.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Format-inl.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Exception.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/MapUtil.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/portability/Windows.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/detail/Iterators.h \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/std_containers_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/std/string_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/yes_no_type.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/sequence_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/bool.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/bool_fwd.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/adl_barrier.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/adl.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/msvc.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/eti.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/intel.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/gcc.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/workaround.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/integral_c_tag.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/static_constant.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/std/list_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/trim.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/config.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/begin.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/config.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/range_fwd.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/mutable_iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/extract_optional_type.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/cat.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/config/config.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/has_xxx.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/na_spec.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/lambda_fwd.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/void_fwd.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/adl_barrier.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/adl.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/intel.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/gcc.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/na.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/bool.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/bool_fwd.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/integral_c_tag.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/static_constant.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/na_fwd.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/ctps.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/lambda.hpp \
@@ -61,8 +122,7 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/nttp_decl.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/nttp.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/integral_wrapper.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/cat.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/config/config.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/static_cast.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/lambda_arity_param.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/template_arity_fwd.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/arity.hpp \
@@ -113,8 +173,60 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/tuple/detail/is_single_return.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/variadic/elem.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/arithmetic/sub.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/eti.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/overload_resolution.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/type_wrapper.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/yes_no.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/arrays.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/has_xxx.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/msvc_typename.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/array/elem.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/array/data.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/array/size.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/repetition/enum_params.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/repetition/enum_trailing_params.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_reference.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/detail/iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/msvc_has_iterator_workaround.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/const_iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_const.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_const.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/integral_constant.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/eval_if.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/if.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/value_wknd.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/integral.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/lambda_support.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/end.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/implementation_help.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/common.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/sfinae.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_array.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/yes_no_type.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_void.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/or.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/use_preprocessed.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/nested_type_wknd.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/include_preprocessed.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/compiler.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/stringize.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_same.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/as_literal.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/iterator_range.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/iterator_range_core.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/assert.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_facade.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/interoperable.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_convertible.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/intrinsics.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/config.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/version.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/detail/config_def.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/detail/config_undef.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_categories.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/identity.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/placeholders.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/arg.hpp \
@@ -122,35 +234,16 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/na_assert.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/assert.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/not.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/nested_type_wknd.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/yes_no.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/arrays.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/gpu.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/pp_counter.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/arity_spec.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/arg_typedef.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/use_preprocessed.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/include_preprocessed.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/compiler.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/stringize.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_convertible.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/intrinsics.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/config.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/version.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/integral_constant.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/detail/config_undef.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_facade.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/interoperable.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/or.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/or.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/static_assert.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/detail/facade_iterator_category.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/and.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/and.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_same.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_const.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_reference.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_lvalue_reference.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_rvalue_reference.hpp \
@@ -164,7 +257,6 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_cv.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_member_pointer.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_reference.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_pointer.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/detail/enable_if.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility/addressof.hpp \
@@ -173,9 +265,7 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_pointer.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_lvalue_reference.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_reference.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_const.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_pod.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_void.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_scalar.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_arithmetic.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_integral.hpp \
@@ -188,15 +278,6 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/apply_wrap.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/has_apply.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/has_xxx.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/type_wrapper.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/has_xxx.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/msvc_typename.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/array/elem.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/array/data.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/array/size.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/repetition/enum_params.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/repetition/enum_trailing_params.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/config/has_apply.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/msvc_never_true.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
@@ -220,186 +301,15 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Likely.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/SpookyHashV1.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/SpookyHashV2.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Malloc.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/Malloc.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/BitsFunctexcept.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Traits.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_cv.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_rvalue_reference.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_volatile.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/aligned_storage.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/alignment_of.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/type_with_alignment.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/conditional.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/common_type.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/decay.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_array.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_bounds.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_extent.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/declval.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/mp_defer.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/copy_cv.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/extent.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/floating_point_promotion.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/function_traits.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_bit_and.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/has_binary_operator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/yes_no_type.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_base_of.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_base_and_derived.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_fundamental.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_bit_and_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_bit_or.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_bit_or_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_bit_xor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_bit_xor_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_complement.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/has_prefix_operator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_dereference.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_divides.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_divides_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_equal_to.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_greater.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_greater_equal.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_left_shift.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_left_shift_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_less.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_less_equal.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_logical_and.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_logical_not.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_logical_or.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_minus.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_minus_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_modulus.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_modulus_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_multiplies.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_multiplies_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_negate.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_new_operator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_not_equal_to.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_nothrow_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_assignable.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_nothrow_constructor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_default_constructible.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_nothrow_copy.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_copy_constructible.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_constructible.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_destructible.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_nothrow_destructor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_destructor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_plus.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_plus_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_post_decrement.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/has_postfix_operator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_post_increment.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_pre_decrement.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_pre_increment.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_right_shift.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_right_shift_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_constructor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_copy.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_move_assign.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_move_constructor.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_unary_minus.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_unary_plus.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_virtual_destructor.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_abstract.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_complex.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_compound.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_copy_assignable.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/noncopyable.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/noncopyable.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_empty.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_final.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_float.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_member_object_pointer.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_nothrow_move_assignable.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility/enable_if.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/enable_if.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_nothrow_move_constructible.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_object.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_polymorphic.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_signed.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_stateless.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_union.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_unsigned.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_virtual_base_of.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/make_signed.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/make_unsigned.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/rank.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_all_extents.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/remove_volatile.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/type_identity.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/integral_promotion.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/promote.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/Constexpr.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/String.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/glog-0.3.5/src/glog/logging.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/glog-0.3.5/src/glog/log_severity.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/glog-0.3.5/src/glog/vlog_is_on.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/CpuId.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/RangeCommon.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/RangeSse42.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/dynamic-inl.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Conv.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/implicit_cast.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/double-conversion.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/ios/build/Build/Products/Debug-iphonesimulator/include/double-conversion/utils.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Demangle.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Expected.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Preprocessor.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unit.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/Math.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Format.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/String.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/regex/pending/unicode_iterator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/cstdint.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/assert.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/throw_exception.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/ExceptionString.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/FBVector.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/FormatTraits.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/ScopeGuard.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/detail/UncaughtExceptionCounter.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/String-inl.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/FormatArg.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Format-inl.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Exception.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/portability/Windows.h \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/next_prior.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/std_containers_traits.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/std/string_traits.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/yes_no_type.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/sequence_traits.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/std/list_traits.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/trim.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/config.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/begin.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/config.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/iterator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/range_fwd.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/mutable_iterator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/extract_optional_type.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/msvc_has_iterator_workaround.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/const_iterator.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/end.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/implementation_help.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/common.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/sfinae.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/as_literal.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/iterator_range.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/iterator_range_core.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_base_and_derived.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/functions.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/size.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/size_type.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/difference_type.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/has_range_iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility/enable_if.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/enable_if.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/concepts.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/concept_check.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/concept/assert.hpp \
@@ -422,7 +332,13 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/limits.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/value_type.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/misc_concept.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/make_unsigned.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/conditional.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_signed.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_unsigned.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_volatile.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/has_member_size.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/cstdint.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility/base_from_member.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/repetition/enum_binary_params.hpp \
@@ -437,13 +353,27 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/comparison/less_equal.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/logical/not.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility/identity_type.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/function_traits.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/checked_delete.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/checked_delete.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/next_prior.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/integral_promotion.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/make_signed.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_plus.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/detail/has_binary_operator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_base_of.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_fundamental.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_plus_assign.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_minus.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_minus_assign.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/noncopyable.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/noncopyable.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/distance.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/empty.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/rbegin.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/reverse_iterator.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/reverse_iterator.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/iterator/iterator_adaptor.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/rend.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/algorithm/equal.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/range/detail/safe_bool.hpp \
@@ -462,6 +392,8 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/repetition/enum_shifted_params.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/facilities/intercept.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/utility/declval.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/declval.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/add_rvalue_reference.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/iteration/detail/iter/forward1.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/slot/detail/shared.hpp \
@@ -484,6 +416,7 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/preprocessor/iterate.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/function/detail/prologue.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/config/no_tr1/functional.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/throw_exception.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/function/function_base.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/integer.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/integer_fwd.hpp \
@@ -492,9 +425,17 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_index/stl_type_index.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_index/type_index_facade.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/demangle.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_copy.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_copy_constructible.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_constructible.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_destructible.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_default_constructible.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/has_trivial_destructor.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/composite_traits.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/is_union.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/ref.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/core/ref.hpp \
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/type_traits/alignment_of.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/function_equal.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/function/function_fwd.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/mem_fn.hpp \
@@ -531,4 +472,4 @@ dependencies: \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/formatter.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/detail/formatter.hpp \
   /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/boost_1_63_0/boost/algorithm/string/erase.hpp \
-  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2016.10.31.00/folly/Unicode.h
+  /Users/lap13046/Documents/react-native/zalopay-inapp/node_modules/react-native/third-party/folly-2018.10.22.00/folly/Unicode.h
