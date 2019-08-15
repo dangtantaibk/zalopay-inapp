@@ -18,6 +18,7 @@ axios.interceptors.response.use(
   }
 );
 
+// @ts-ignore
 const createOrder = params => {
   const formData = new FormData();
   Object.keys(params).forEach(key => {

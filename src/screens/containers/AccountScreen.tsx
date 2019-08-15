@@ -4,24 +4,10 @@ import {
   Text,
   View
 } from 'react-native';
-import {connect} from "react-redux";
-import {bindActionCreators, Dispatch} from "redux";
-import {TouchableDebounce} from "../../components/TouchableDebounce";
 import {colors} from "../../constants/theme";
-import {StoreState} from "../../store";
-import * as UserActions from "../../store/user/actions";
-
-
-interface IStateInjectedProps {
-  fontSizeForDisplay: number,
-}
-
-interface IDispatchInjectedProps {
-  UserActions: typeof UserActions,
-}
 
 // tslint:disable-next-line:no-empty-interface
-interface IProps extends IStateInjectedProps, IDispatchInjectedProps{
+interface IProps{
 
 }
 
@@ -38,44 +24,18 @@ class AccountScreen extends Component<IProps> {
 
 
   public render() {
-    const {fontSizeForDisplay} = this.props;
 
     return (
         <View style={styles.container}>
-          <Text style={[styles.welcome, {fontSize: fontSizeForDisplay}]}>
+          <Text style={[styles.welcome]}>
             Welcome to React Native!
           </Text>
-          <Text style={{ fontSize: 20, marginBottom: 20 }}>
-            Select fontSize for Text:
-          </Text>
-          <View>
-            <TouchableDebounce onPress={() => {this.props.UserActions.changeFontSize(10)}}
-                               style={styles.button}>
-              <Text style={[styles.textButton, {fontSize: 12}]}>SMALL</Text>
-            </TouchableDebounce>
-            <TouchableDebounce onPress={() => {this.props.UserActions.changeFontSize(14)}}
-                               style={styles.button}>
-              <Text style={[styles.textButton, {fontSize: 14}]}>STANDARD</Text>
-            </TouchableDebounce>
-            <TouchableDebounce onPress={() => {this.props.UserActions.changeFontSize(18)}}
-                               style={styles.button}>
-              <Text style={[styles.textButton, {fontSize: 16}]}>LARGE</Text>
-            </TouchableDebounce>
-          </View>
         </View>
     );
   }
 }
 
-const mapStateToProps = (state: StoreState): IStateInjectedProps => ({
-  fontSizeForDisplay: state.User.fontSizeForDisplay,
-});
-
-const mapDispatchToProps = (dispatch: Dispatch): IDispatchInjectedProps => ({
-  UserActions: bindActionCreators(UserActions, dispatch),
-});
-
-export default connect(mapStateToProps, mapDispatchToProps)(AccountScreen);
+export default AccountScreen;
 
 const styles = StyleSheet.create({
   button: {

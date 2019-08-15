@@ -2,34 +2,36 @@ import {IActions, IState, Types} from "./types";
 
 
 export const initState: IState = {
-    changeFontSizeHasError: false,
-    changeFontSizeLoading: false,
-    fontSizeForDisplay: 14,
+    getListFoodHasError: false,
+    getListFoodLoading: false,
+    lstFoodItem: {},
 };
 
 export default function (state: IState = initState, action: IActions): IState {
     switch (action.type) {
 
-        case Types.ON_CHANGE_FONT_SIZE_REQUEST: {
+        case Types.GET_LIST_FOOD_REQUEST: {
             return {
                 ...state,
-                changeFontSizeHasError: false,
-                changeFontSizeLoading: true
+                getListFoodHasError: false,
+                getListFoodLoading: true
             };
         }
 
-        case Types.ON_CHANGE_FONT_SIZE_SUCCESS: {
+        case Types.GET_LIST_FOOD_SUCCESS: {
             return {
                 ...state,
-                fontSizeForDisplay: action.payload,
+                lstFoodItem: action.payload,
+                getListFoodLoading: false
             }
         }
 
-        case Types.ON_CHANGE_FONT_SIZE_FAILURE: {
+        case Types.GET_LIST_FOOD_FAILURE: {
             return {
                 ...state,
-                changeFontSizeHasError: true,
-                changeFontSizeLoading: false,
+                getListFoodError: action.payload,
+                getListFoodHasError: true,
+                getListFoodLoading: false,
             };
         }
 

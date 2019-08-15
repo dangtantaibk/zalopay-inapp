@@ -1,35 +1,36 @@
 import { IAction } from "../";
+import {FoodItemDTO} from "../../models/api/response/FoodItemDTO";
 
 export enum Types {
-    ON_CHANGE_FONT_SIZE_REQUEST = "@@user/ON_CHANGE_FONT_SIZE_REQUEST",
-    ON_CHANGE_FONT_SIZE_SUCCESS = "@@user/ON_CHANGE_FONT_SIZE_SUCCESS",
-    ON_CHANGE_FONT_SIZE_FAILURE = "@@user/ON_CHANGE_FONT_SIZE_FAILURE",
+    GET_LIST_FOOD_REQUEST = "@@user/GET_LIST_FOOD_REQUEST",
+    GET_LIST_FOOD_SUCCESS = "@@user/GET_LIST_FOOD_SUCCESS",
+    GET_LIST_FOOD_FAILURE = "@@user/GET_LIST_FOOD_FAILURE",
 
     RESET_STATE = "@@user/RESET_STATE"
 }
 
 export interface IState {
-    changeFontSizeLoading: boolean;
-    changeFontSizeHasError: boolean;
-    changeFontSizeError?: Error;
-    fontSizeForDisplay: number;
+    getListFoodLoading: boolean;
+    getListFoodHasError: boolean;
+    getListFoodError?: Error;
+    lstFoodItem: FoodItemDTO;
 }
 
-export interface IOnChangeFontSizeRequestAction extends IAction<Types.ON_CHANGE_FONT_SIZE_REQUEST> { }
+export interface IGetListFoodRequestAction extends IAction<Types.GET_LIST_FOOD_REQUEST> { }
 
-export interface IOnChangeFontSizeSuccessAction extends IAction<Types.ON_CHANGE_FONT_SIZE_SUCCESS, number> {
-    payload: number;
+export interface IGetListFoodSuccessAction extends IAction<Types.GET_LIST_FOOD_SUCCESS, FoodItemDTO> {
+    payload: FoodItemDTO;
 }
-export interface IOnChangeFontSizeFailureAction extends IAction<Types.ON_CHANGE_FONT_SIZE_FAILURE, Error> { }
+export interface IGetListFoodFailureAction extends IAction<Types.GET_LIST_FOOD_FAILURE, Error> {
+    payload: Error;
+}
 
 export interface IResetStateAction extends IAction<Types.RESET_STATE> {
     type: Types.RESET_STATE
 }
 
-
-
 export type IActions =
-    IOnChangeFontSizeRequestAction
-    | IOnChangeFontSizeFailureAction
-    | IOnChangeFontSizeSuccessAction
+    IGetListFoodRequestAction
+    | IGetListFoodSuccessAction
+    | IGetListFoodFailureAction
     | IResetStateAction;

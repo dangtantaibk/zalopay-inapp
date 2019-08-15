@@ -10,7 +10,7 @@ export const App =
       AccountScreen
     }, {
       headerMode: "none",
-      initialRouteName: 'Main',
+      initialRouteName: 'HomeScreen',
       navigationOptions: {
         swipeEnabled: false
       }

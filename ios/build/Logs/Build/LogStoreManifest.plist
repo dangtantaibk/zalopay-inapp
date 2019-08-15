@@ -5,6 +5,71 @@
 	<key>logFormatVersion</key>
 	<integer>10</integer>
 	<key>logs</key>
-	<dict/>
+	<dict>
+		<key>147398DF-A603-4264-B458-8DFE7067802A</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>147398DF-A603-4264-B458-8DFE7067802A.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>E</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BaseProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BaseProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project BaseProject with scheme BaseProject and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>587451062.21748698</real>
+			<key>timeStoppedRecording</key>
+			<real>587451066.05624199</real>
+			<key>title</key>
+			<string>Building project BaseProject with scheme BaseProject and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>147398DF-A603-4264-B458-8DFE7067802A</string>
+		</dict>
+		<key>322FF342-EA2A-4C8B-9382-345EB8BB7E15</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>322FF342-EA2A-4C8B-9382-345EB8BB7E15.xcactivitylog</string>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>W</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>BaseProject project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>BaseProject</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building project BaseProject with scheme BaseProject and configuration Debug</string>
+			<key>timeStartedRecording</key>
+			<real>587443272.06689</real>
+			<key>timeStoppedRecording</key>
+			<real>587443273.30123901</real>
+			<key>title</key>
+			<string>Building project BaseProject with scheme BaseProject and configuration Debug</string>
+			<key>uniqueIdentifier</key>
+			<string>322FF342-EA2A-4C8B-9382-345EB8BB7E15</string>
+		</dict>
+	</dict>
 </dict>
 </plist>

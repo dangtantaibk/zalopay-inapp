@@ -4,9 +4,7 @@ import {
   Text,
   View
 } from 'react-native';
-import {connect} from "react-redux";
 import Loading from "../../components/Loading";
-import {StoreState} from "../../store";
 
 interface IStateInjectedProps {
   fontSizeForDisplay: number,
@@ -39,12 +37,11 @@ class SettingScreen extends Component<IProps, IState> {
   }
 
   public render() {
-    const {fontSizeForDisplay} = this.props;
     const {showLoading} = this.state;
 
     return (
       <View style={styles.container}>
-        <Text style={[styles.welcome, {fontSize: fontSizeForDisplay}]}>
+        <Text style={[styles.welcome]}>
           Welcome to React Native!
         </Text>
         {showLoading && <Loading />}
@@ -53,11 +50,8 @@ class SettingScreen extends Component<IProps, IState> {
   }
 }
 
-const mapStateToProps = (state: StoreState): IStateInjectedProps => ({
-  fontSizeForDisplay: state.User.fontSizeForDisplay,
-});
 
-export default connect(mapStateToProps, null)(SettingScreen);
+export default SettingScreen;
 
 const styles = StyleSheet.create({
   container: {

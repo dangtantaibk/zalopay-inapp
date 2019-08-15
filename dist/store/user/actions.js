@@ -7,35 +7,44 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+    result["default"] = mod;
+    return result;
+};
 Object.defineProperty(exports, "__esModule", { value: true });
 const types_1 = require("./types");
-function changeFontSize(fontSize) {
+const FoodService = __importStar(require("../../services/food"));
+function getListFood(cm, dt) {
     return (dispatch) => __awaiter(this, void 0, void 0, function* () {
         try {
-            dispatch(OnChangeFontSizeRequest());
-            dispatch(OnChangeFontSizeSuccess(fontSize));
+            dispatch(GetListFoodRequest());
+            const response = yield FoodService.getListItemFood(cm, dt);
+            dispatch(GetListFoodSuccess(response.dt));
         }
         catch (error) {
-            dispatch(OnChangeFontSizeFailure(error));
+            dispatch(GetListFoodFailure(error));
         }
     });
 }
-exports.changeFontSize = changeFontSize;
-function OnChangeFontSizeRequest() {
+exports.getListFood = getListFood;
+function GetListFoodRequest() {
     return {
         payload: undefined,
-        type: types_1.Types.ON_CHANGE_FONT_SIZE_REQUEST
+        type: types_1.Types.GET_LIST_FOOD_REQUEST
     };
 }
-function OnChangeFontSizeSuccess(fontSize) {
+function GetListFoodSuccess(data) {
     return {
-        payload: fontSize,
-        type: types_1.Types.ON_CHANGE_FONT_SIZE_SUCCESS
+        payload: data,
+        type: types_1.Types.GET_LIST_FOOD_SUCCESS
     };
 }
-function OnChangeFontSizeFailure(error) {
+function GetListFoodFailure(error) {
     return {
         payload: error,
-        type: types_1.Types.ON_CHANGE_FONT_SIZE_FAILURE
+        type: types_1.Types.GET_LIST_FOOD_FAILURE
     };
 }
