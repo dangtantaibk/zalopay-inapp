@@ -27,6 +27,7 @@ const zalopay_react_native_ui_toolkit_1 = require("zalopay-react-native-ui-toolk
 const ModalFoodItem_1 = __importDefault(require("../../components/ModalFoodItem"));
 const Loading_1 = __importDefault(require("../../components/Loading"));
 const ModalPreview_1 = __importDefault(require("../components/ModalPreview"));
+const ModalQrCode_1 = __importDefault(require("../components/ModalQrCode"));
 class HomeScreen extends react_1.Component {
     constructor(props) {
         super(props);
@@ -64,6 +65,7 @@ class HomeScreen extends react_1.Component {
             indexCategory: 0,
             modalVisible: false,
             modalPreviewVisible: false,
+            modalQrCodeVisible: false,
             currentItem: {},
             lstItemChoose: []
         };
@@ -122,22 +124,22 @@ class HomeScreen extends react_1.Component {
         return index.toString();
     }
     render() {
-        return (react_1.default.createElement(ScreenAreaView_1.default, { forceInset: { bottom: 'always' }, style: styles.container },
+        return (react_1.default.createElement(ScreenAreaView_1.default, { forceInset: { bottom: 'never' }, barStyle: "light-content", style: styles.container },
             react_1.default.createElement(Header_1.default, { backgroundColor: '#008FE5', leftComponent: 'goBack', arrowBackColor: 'white', goBackPressed: this.handleCloseModule, centerComponent: (react_1.default.createElement(react_native_1.View, { style: { flexDirection: 'row' } },
                     react_1.default.createElement(react_native_1.Text, { style: { fontSize: 22, lineHeight: 23, fontWeight: '600', color: 'white' } }, "Menu C\u0103n tin"))), rightComponent: (react_1.default.createElement(react_native_1.View, { style: { flexDirection: 'row' } })) }),
             this.renderContent()));
     }
     renderContent() {
         const { lstFoodItem, getListFoodLoading } = this.props;
-        const { lstCategory, lstItem, amount, modalVisible, currentItem, modalPreviewVisible, lstItemChoose } = this.state;
+        const { lstCategory, lstItem, amount, modalVisible, currentItem, modalPreviewVisible, lstItemChoose, modalQrCodeVisible } = this.state;
         const array2Dimen = lodash_1.default.chunk(lstItem, 3);
         const widthImage = react_native_1.Dimensions.get("window").width / 3.5;
         if (getListFoodLoading) {
             return react_1.default.createElement(Loading_1.default, null);
         }
-        return (react_1.default.createElement(react_native_1.View, { style: { backgroundColor: '#d3dadd' } },
+        return (react_1.default.createElement(react_native_1.View, { style: { backgroundColor: '#d3dadd', flex: 1 } },
             react_1.default.createElement(react_native_1.FlatList, { style: { backgroundColor: 'white' }, contentContainerStyle: { paddingHorizontal: 20, paddingVertical: 10 }, data: lstCategory, keyExtractor: this.keyExtractor, extraData: this.state, renderItem: this._renderItem, horizontal: true, showsHorizontalScrollIndicator: false }),
-            react_1.default.createElement(react_native_1.ScrollView, { style: { marginBottom: 140 } }, array2Dimen.map((arr, indexCol) => {
+            react_1.default.createElement(react_native_1.ScrollView, { style: {} }, array2Dimen.map((arr, indexCol) => {
                 return (react_1.default.createElement(react_native_1.View, { key: indexCol, style: { flexDirection: 'row', justifyContent: 'center', marginBottom: indexCol !== array2Dimen.length - 1 ? 5 : 0, alignContent: 'center', flex: 1 } }, arr.map((item, index) => {
                     const imageUrl = (lstFoodItem.imageHost || '') + item.imgPath;
                     return (react_1.default.createElement(TouchableDebounce_1.TouchableDebounce, { key: index, onPress: () => {
@@ -150,10 +152,10 @@ class HomeScreen extends react_1.Component {
                 })));
             })),
             amount ?
-                react_1.default.createElement(react_native_1.View, { style: { position: 'absolute', height: 50, width: '100%', bottom: 140, right: 0, justifyContent: 'space-between', flexDirection: 'row' } },
+                react_1.default.createElement(react_native_1.View, { style: { position: 'absolute', height: 50, width: '100%', bottom: 0, right: 0, justifyContent: 'space-between', flexDirection: 'row' } },
                     react_1.default.createElement(TouchableDebounce_1.TouchableDebounce, { onPress: () => this.setState({ modalPreviewVisible: true }), style: { backgroundColor: '#000', opacity: 0.7, flex: 1, justifyContent: 'center', alignItems: 'center' } },
                         react_1.default.createElement(react_native_1.Text, { style: { color: '#FFF', fontWeight: '600', fontSize: 14 } }, `${amount} vnd`)),
-                    react_1.default.createElement(zalopay_react_native_ui_toolkit_1.Button.Normal, { title: "Thanh to\u00E1n", style: styles.payButton, onPress: this.handlePayPress })) : null,
+                    react_1.default.createElement(zalopay_react_native_ui_toolkit_1.Button.Normal, { title: "Thanh to\u00E1n", style: styles.payButton, onPress: () => this.setState({ modalQrCodeVisible: true }) })) : null,
             modalVisible ?
                 react_1.default.createElement(ModalFoodItem_1.default, { imageHost: lstFoodItem.imageHost || '', foodItem: currentItem, modalVisible: modalVisible, onDone: (price, foodItemChoose) => {
                         const lst = this.state.lstItemChoose;
@@ -162,7 +164,9 @@ class HomeScreen extends react_1.Component {
                     }, onClose: () => { this.setState({ modalVisible: false }); } })
                 : null,
             modalPreviewVisible ?
-                react_1.default.createElement(ModalPreview_1.default, { imageHost: lstFoodItem.imageHost || '', lstFoodItem: lstItemChoose, amount: amount, modalVisible: modalPreviewVisible, onClose: () => this.setState({ modalPreviewVisible: false }) }) : null));
+                react_1.default.createElement(ModalPreview_1.default, { imageHost: lstFoodItem.imageHost || '', lstFoodItem: lstItemChoose, amount: amount, modalVisible: modalPreviewVisible, onClose: () => this.setState({ modalPreviewVisible: false }) }) : null,
+            modalQrCodeVisible ?
+                react_1.default.createElement(ModalQrCode_1.default, { modalVisible: modalQrCodeVisible, onClose: () => this.setState({ modalQrCodeVisible: false }) }) : null));
     }
     _renderItem({ item, index }) {
         const { indexCategory } = this.state;

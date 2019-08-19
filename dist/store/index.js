@@ -8,6 +8,7 @@ const redux_persist_1 = require("redux-persist");
 const storage_1 = __importDefault(require("redux-persist/lib/storage"));
 const redux_thunk_1 = __importDefault(require("redux-thunk"));
 const reducer_1 = __importDefault(require("./user/reducer"));
+const reducer_2 = __importDefault(require("./history/reducer"));
 const persistConfig = {
     debug: __DEV__,
     key: "root",
@@ -16,6 +17,7 @@ const persistConfig = {
 };
 const rootReducer = redux_1.combineReducers({
     User: reducer_1.default,
+    History: reducer_2.default
 });
 const persistedReducer = redux_persist_1.persistReducer(persistConfig, rootReducer);
 exports.store = redux_1.createStore(persistedReducer, redux_1.applyMiddleware(redux_thunk_1.default));

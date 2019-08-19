@@ -7,7 +7,7 @@ import {
 import { icons } from '../../assets/images';
 import { colors } from '../../constants/theme';
 import {
-  AccountScreen,
+  // AccountScreen,
   HomeScreen,
   SettingScreen
 } from "../../screens";
@@ -31,9 +31,9 @@ const AnimationImage = (props: any) => (
 
 export const Main = createBottomTabNavigator(
   {
-    AccountScreenTab: {
-      screen: AccountScreen
-    },
+    // AccountScreenTab: {
+    //   screen: AccountScreen
+    // },
 
     HomeScreenTab: {
       screen: HomeScreen
@@ -79,7 +79,7 @@ export const Main = createBottomTabNavigator(
                 focused={navigation.isFocused()}
                 icon={icons.analytics}
                 tintColor={tintColor}
-                title='Setting'
+                title='History'
               />
             );
           default:

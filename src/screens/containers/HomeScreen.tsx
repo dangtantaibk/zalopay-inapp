@@ -28,13 +28,11 @@ import ModalFoodItem from "../../components/ModalFoodItem";
 import Loading from "../../components/Loading";
 import {FoodItemChoose} from "../../models/application/FoodItemChoose";
 import ModalPreview from "../components/ModalPreview";
-
-
+import ModalQrCode from "../components/ModalQrCode";
 
 interface IDispatchInjectedProps {
   UserActions: typeof UserActions,
 }
-
 
 interface IStateInjectedProps {
   lstFoodItem: FoodItemDTO,
@@ -52,6 +50,7 @@ interface IState {
   indexCategory: number;
   modalVisible: boolean;
   modalPreviewVisible: boolean;
+  modalQrCodeVisible: boolean;
   currentItem: ItemDTO;
   lstItemChoose: FoodItemChoose[];
 }
@@ -67,6 +66,7 @@ class HomeScreen extends Component<IProps, IState> {
       indexCategory: 0,
       modalVisible: false,
       modalPreviewVisible: false,
+      modalQrCodeVisible: false,
       currentItem: {},
       lstItemChoose: []
     };
@@ -162,7 +162,7 @@ class HomeScreen extends Component<IProps, IState> {
 
   public render() {
     return (
-        <ScreenAreaView forceInset={{ bottom: 'always' }} style={styles.container}>
+        <ScreenAreaView forceInset={{ bottom: 'never' }} barStyle={"light-content"} style={styles.container}>
             <Header
                 backgroundColor={'#008FE5'}
                 leftComponent='goBack'
@@ -181,7 +181,7 @@ class HomeScreen extends Component<IProps, IState> {
 
   public renderContent() {
     const {lstFoodItem, getListFoodLoading} = this.props;
-    const {lstCategory, lstItem, amount, modalVisible, currentItem, modalPreviewVisible, lstItemChoose} = this.state;
+    const {lstCategory, lstItem, amount, modalVisible, currentItem, modalPreviewVisible, lstItemChoose, modalQrCodeVisible} = this.state;
     const array2Dimen = _.chunk(lstItem, 3);
     const widthImage = Dimensions.get("window").width / 3.5;
 
@@ -191,7 +191,7 @@ class HomeScreen extends Component<IProps, IState> {
     }
 
     return (
-      <View style={{ backgroundColor: '#d3dadd' }}>
+      <View style={{ backgroundColor: '#d3dadd', flex: 1 }}>
         <FlatList
           style={{ backgroundColor: 'white' }}
           contentContainerStyle={{ paddingHorizontal: 20, paddingVertical: 10}}
@@ -203,7 +203,7 @@ class HomeScreen extends Component<IProps, IState> {
           showsHorizontalScrollIndicator={false}
         />
 
-        <ScrollView style={{ marginBottom: 140 }}>
+        <ScrollView style={{ }}>
           {array2Dimen.map((arr, indexCol) => {
             return (
               <View key={indexCol} style={{ flexDirection: 'row', justifyContent: 'center', marginBottom: indexCol !== array2Dimen.length - 1 ? 5 : 0, alignContent: 'center', flex: 1 }}>{
@@ -231,7 +231,7 @@ class HomeScreen extends Component<IProps, IState> {
 
         {
           amount ?
-            <View style={{ position: 'absolute', height: 50, width: '100%', bottom: 140, right: 0, justifyContent: 'space-between', flexDirection: 'row'}}>
+            <View style={{ position: 'absolute', height: 50, width: '100%', bottom: 0, right: 0, justifyContent: 'space-between', flexDirection: 'row'}}>
 
               <TouchableDebounce onPress={() => this.setState({ modalPreviewVisible: true })}
                 style={{ backgroundColor: '#000', opacity: 0.7, flex: 1, justifyContent: 'center', alignItems: 'center' }}>
@@ -240,7 +240,10 @@ class HomeScreen extends Component<IProps, IState> {
               <Button.Normal
                 title="Thanh toán"
                 style={styles.payButton}
-                onPress={this.handlePayPress}
+                onPress={
+                  // this.handlePayPress
+                  () => this.setState({ modalQrCodeVisible: true })
+                }
               />
             </View> : null
         }
@@ -268,6 +271,13 @@ class HomeScreen extends Component<IProps, IState> {
               amount={amount}
               modalVisible={modalPreviewVisible}
               onClose={() => this.setState({ modalPreviewVisible: false })}/> : null
+        }
+
+        {
+          modalQrCodeVisible ?
+            <ModalQrCode
+              modalVisible={modalQrCodeVisible}
+              onClose={() => this.setState({ modalQrCodeVisible: false })}/> : null
         }
 
       </View>

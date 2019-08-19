@@ -9,6 +9,8 @@ import storage from "redux-persist/lib/storage";
 import thunk from "redux-thunk";
 import UserReducer from './user/reducer';
 import { IState as UserState } from './user/types';
+import HistoryReducer from './history/reducer';
+import { IState as HistoryState } from './history/types';
 
 export interface IAction<T, P = any> {
     type: T;
@@ -17,6 +19,7 @@ export interface IAction<T, P = any> {
 
 export interface StoreState {
     User: UserState;
+    History: HistoryState;
 }
 
 const persistConfig: PersistConfig = {
@@ -28,6 +31,7 @@ const persistConfig: PersistConfig = {
 
 const rootReducer = combineReducers({
     User: UserReducer,
+    History: HistoryReducer
 });
 
 

@@ -13,7 +13,7 @@ exports.App = react_navigation_1.createStackNavigator({
     AccountScreen: AccountScreen_1.default
 }, {
     headerMode: "none",
-    initialRouteName: 'HomeScreen',
+    initialRouteName: 'Main',
     navigationOptions: {
         swipeEnabled: false
     }

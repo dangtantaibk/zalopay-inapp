@@ -22,9 +22,6 @@ const AnimationImage = (props) => (React.createElement(react_native_1.View, { st
             marginTop: 8,
         } }, props.title)));
 exports.Main = react_navigation_1.createBottomTabNavigator({
-    AccountScreenTab: {
-        screen: screens_1.AccountScreen
-    },
     HomeScreenTab: {
         screen: screens_1.HomeScreen
     },
@@ -41,7 +38,7 @@ exports.Main = react_navigation_1.createBottomTabNavigator({
                 case "HomeScreenTab":
                     return (React.createElement(AnimationImage, { focused: navigation.isFocused(), icon: images_1.icons.recommend, tintColor: tintColor, title: 'Home' }));
                 case "SettingScreenTab":
-                    return (React.createElement(AnimationImage, { focused: navigation.isFocused(), icon: images_1.icons.analytics, tintColor: tintColor, title: 'Setting' }));
+                    return (React.createElement(AnimationImage, { focused: navigation.isFocused(), icon: images_1.icons.analytics, tintColor: tintColor, title: 'History' }));
                 default:
                     return null;
             }
